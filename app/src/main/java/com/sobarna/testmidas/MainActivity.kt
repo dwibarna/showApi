@@ -32,7 +32,7 @@ class MainActivity : AppCompatActivity() {
 
                     for (i in 0..arrayList!!.size -1){
                         resAdapter.showList(arrayList[i]?.menus as List<MenusItem>)
-
+                        Log.d("coba",title.toString())
                     }
                 }
             }
