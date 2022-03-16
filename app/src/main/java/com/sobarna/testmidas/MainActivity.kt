@@ -34,6 +34,7 @@ class MainActivity : AppCompatActivity() {
                         resAdapter.showList(arrayList[i]?.menus as List<MenusItem>)
                         Log.d("coba",title.toString())
                         Log.d("coba22",title.toString())
+                        val anggrek = Plant(1,"cek")
                     }
                 }
             }
