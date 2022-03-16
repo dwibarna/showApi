@@ -35,6 +35,7 @@ class MainActivity : AppCompatActivity() {
                         Log.d("coba",title.toString())
                         Log.d("coba22",title.toString())
                         val anggrek = Plant(1,"cek")
+                        val anggrek2 = Plant(12,"cek")
                     }
                 }
             }
